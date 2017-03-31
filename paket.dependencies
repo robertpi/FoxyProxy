@@ -1,6 +1,7 @@
 source https://nuget.org/api/v2
 
 nuget FSharp.Core redirects: force
+nuget Titanium.Web.Proxy
 
 group Build
   source https://nuget.org/api/v2

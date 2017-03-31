@@ -1,0 +1,25 @@
+type project
+title
+    FoxyProxy
+owners
+    Robert Pickering
+authors 
+    Robert Pickering
+projectUrl
+    https://github.com/robertpi/FoxyProxy
+iconUrl
+    https://raw.githubusercontent.com/robertpi/FoxyProxy/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/robertpi/FoxyProxy/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    fsharp
+summary
+    A debugging proxy hosted in fsi
+description
+    A debugging proxy hosted in fsi
+
+

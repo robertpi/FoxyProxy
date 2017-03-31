@@ -1,6 +1,6 @@
-﻿module FSharp.ProjectScaffold.Tests
+module FoxyProxy.Tests
 
-open FSharp.ProjectTemplate
+open FoxyProxy
 open NUnit.Framework
 
 [<Test>]
