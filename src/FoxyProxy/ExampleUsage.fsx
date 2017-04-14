@@ -21,8 +21,13 @@ Proxy.GetAllRequests()
 |> Explore.GroupRequests
 |> Seq.filter(fun x ->  x.ContentTypes |> Seq.exists (fun x -> x = "text/html"))
 //|> Seq.filter(fun x ->  x.UrlNoParametersNoExtenition.Contains("bbc"))
-Replay.ReplayRequestResponseMeta true (Proxy.GetRequest 52)
+Replay.ReplayRequestResponseMeta true (Proxy.GetRequest 64)
 
-let testRequ = Proxy.GetRequest 127
+
+
+let testRequ = Proxy.GetRequest 64
 testRequ.RequestResponseData.Request
-testRequ.RequestResponseData.Request.Body
+
+let testRequ' = Proxy.GetRequest 67
+testRequ'.RequestResponseData.Request
+
