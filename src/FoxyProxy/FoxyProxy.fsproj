@@ -60,8 +60,13 @@
   -->
   <Import Project="..\..\.paket\paket.targets" />
   <ItemGroup>
-    <None Include="Script.fsx" />
-    <None Include="Firefox.fsx" />
+    <Compile Include="Types.fs" />
+    <Compile Include="Proxy.fs" />
+    <Compile Include="Replay.fs" />
+    <Compile Include="Explore.fs" />
+    <Compile Include="Firefox.fs" />
+    <None Include="Reference.fsx" />
+    <None Include="ExampleUsage.fsx" />
     <None Include="paket.references" />
     <None Include="paket.template" />
     <Content Include="App.config" />
